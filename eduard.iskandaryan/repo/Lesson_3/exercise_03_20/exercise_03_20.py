@@ -1,0 +1,5 @@
+numbers = input("Please enter 5 integers: ").split()
+format_numbers = map(int, numbers)
+maxnum = max(numbers)
+minnum = min(numbers)
+print(f"Largest number is {maxnum} and the smallest is {minnum}")
